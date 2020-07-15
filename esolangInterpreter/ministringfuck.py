@@ -4,6 +4,6 @@ def interpreter(code):
     for i in code:
         if i == '+':
             count = (count + 1) % 256
-        if i == '.':
+        elif i == '.':
             accum += chr(count)
     return accum
