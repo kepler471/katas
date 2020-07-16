@@ -1,4 +1,4 @@
-class Smallfuck:
+class SmallLang:
     def __init__(self, code_, tape_):
         self.instructions = {
             ">": self.move,
@@ -53,7 +53,7 @@ class Smallfuck:
 
 
 def interpreter(code, tape):
-    program = Smallfuck(code, tape)
+    program = SmallLang(code, tape)
     while program.power:
         program.evaluate()
     return "".join(program.tape)
