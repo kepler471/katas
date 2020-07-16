@@ -1,5 +1,5 @@
 import unittest
-from esolangInterpreter.ministringfuck import interpreter
+from esolangInterpreter.ministring import interpreter
 from string import ascii_uppercase
 
 
