@@ -1,6 +1,6 @@
 import unittest
-from esolangInterpreter.ministring import interpreter
 from string import ascii_uppercase
+from esolangInterpreter.ministring import interpreter
 
 
 class MyTestCase(unittest.TestCase):
