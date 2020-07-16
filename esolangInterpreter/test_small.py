@@ -8,7 +8,7 @@ class MyTestCase(unittest.TestCase):
         result = interpreter("*", "00101100")
         self.assertEqual(result, "10101100")
 
-    def test70(self):
+    def test71(self):
         # Flips the second and third cell of the tape
         result = interpreter(">*>*", "00101100")
         self.assertEqual(result, "01001100")
