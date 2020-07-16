@@ -1,5 +1,5 @@
 import unittest
-from esolangInterpreter.smallfuck import interpreter
+from esolangInterpreter.small import interpreter
 
 
 class MyTestCase(unittest.TestCase):
